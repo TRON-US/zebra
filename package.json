@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "diff": "lerna diff",
+    "updated": "lerna updated",
+    "bootstrap": "npm run build-ts-packages; lerna bootstrap",
+    "publish": "npm run build-ts-packages; lerna publish",
+    "release": "lerna bootstrap; lerna publish;",
+    "tag": "gulp; gulp publishTag;",
+    "updateChangelog": "gulp; gulp updateChangelog --prev $previousVersion;"
+  }
+}
