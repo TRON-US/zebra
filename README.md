@@ -11,7 +11,7 @@ For more, check out the [Tron IDE documentation](https://tron-ide.readme.io/).
 Zebra is built out of several different modules. Here is the brief description.
 
 + [`zebra-solc-bin`](zebra-solc-bin/README.md): A package exposing the solc compiler versions supported by TronBox
-+ [`zebra-tests`](): 
++ [`zebra-tests`](zebra-tests/README.MD): ... 
 
 
 ## Contributing
