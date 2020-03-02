@@ -1,5 +1,5 @@
 {
-  "name": "lerna-tests",
+  "name": "zebra-tests",
   "version": "1.0.1",
   "description": "Tool to test Solidity smart contracts",
   "author": "fdango <ccguangyao@gmail.com>",
