@@ -1,6 +1,6 @@
 {
   "name": "zebar-solc-bin",
-  "version": "1.0.0",
+  "version": "0.0.2-alpha.0",
   "description": "A repo containing all the compilers officially supported by Tron Solidity",
   "author": "fdango <ccguangyao@gmail.com>",
   "homepage": "https://github.com/TRON-US/zebra#readme",
