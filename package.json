@@ -1,7 +1,14 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "zebra",
   "devDependencies": {
     "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "diff": "lerna diff",
+    "updated": "lerna updated",
+    "bootstrap": "npm run build-ts-packages; lerna bootstrap",
+    "build-ts-packages": "lerna run --scope 'zebra-tests' build",
+    "publish": "npm run build-ts-packages; lerna publish",
+    "release": "lerna bootstrap; lerna publish;"
   }
 }
