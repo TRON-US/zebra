@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-require('../dist/run.js.js');
+require('../dist/run.js');
